@@ -518,7 +518,7 @@ border-radius:50%;
   .hero-text h1{
     font-weight: 200;
     line-height:46px;
-    font-size: 54px;
+    font-size:42px;
   }
 
   .Clients{
@@ -526,8 +526,18 @@ border-radius:50%;
   }
 
   
+.video-wrap{
+  width:80% !important;
+  height:300px !important;
+  object-fit:cover;
+  padding:30px 0 !important;
+  
+  
+}
 
-
+.hero-area{
+  padding: 30px 20px !important;
+}
 
 @media only screen and (max-width: 800px) {
 
@@ -555,8 +565,13 @@ border-radius:50%;
 
 .hero-btns .custom-button{
   width: 100% !important;
+  padding: 14px 16px !important;
+ 
 }
 
+.hero-text{
+  margin-bottom:20px !important;
+}
 
 
 
@@ -569,7 +584,7 @@ border-radius:50%;
   
   .hero-text h1 span {
     font-family: Fair Prosper;
-    font-size: 54px !important;
+    font-size:42px !important;
   }
   
   .hero-text h4{
@@ -754,6 +769,9 @@ margin:0 !important;
   width: 100% !important;
   height: 200px;
 }
+
+
+
 }
 
 
@@ -761,7 +779,7 @@ margin:0 !important;
 
 @media only screen and (max-width: 1080px) {
 
-
+  
 .custom-nav{
   padding: 20px 0px !important;
 }
